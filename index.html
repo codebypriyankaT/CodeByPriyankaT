@@ -3,39 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Priyanka - Freelancer</title>
+    <title>Coder Profile</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        .header {
             display: flex;
-            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
-            background-color: #f4f4f4;
+            justify-content: space-between;
         }
-        .container {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        h1 {
-            color: #333;
+        .contact-info {
+            text-align: right;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="https://source.unsplash.com/400x300/?working,woman" alt="Working Woman">
-        <marquee class="css" behavior="scroll" direction="down"> <h1></h1>This text scrolls from top to bottom. <h1></marquee>
-        <h1>Priyanka is a freelancer in web development</h1>
+        <div class="header">
+            <img src="profile.jpg" alt="Coder Picture">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Email: codebypriyankat@gmail.com</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I am Priyanka, a full-stack developer with over 10 years of experience in web development. Passionate about my work, I specialize in crafting elegant and efficient digital solutions. Always eager to learn new technologies, I thrive on pushing boundaries in the digital world.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Skill Set</h2>
+            <ul>
+                <li>Angular</li>
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>RESTful Web Services</li>
+                <li>MySQL, MongoDB</li>
+                <li>Gradle, Maven</li>
+                <li>Git</li>
+                <li>Node.js, Tomcat, Docker</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Organizational Experience</h2>
+            <p>Developer at Aricent</p>
+            <p>Developer at Accenture</p>
+            <p>Developer at Ultimate Kronos Group</p>
+            <p>Developer at Thales</p>
+        </div>
     </div>
 </body>
 </html>
